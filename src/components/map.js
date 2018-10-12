@@ -7,8 +7,8 @@ class Map extends Component {
 		return (
 			<Iframe
 				url= {this.props.location}
-				width="450px"
-				height="450px"
+				width="775px"
+				height="850px"
 				id="myId"
 				className="myClassname"
 				display="initial"

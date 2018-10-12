@@ -11,9 +11,7 @@ class ContactMessage extends Component {
             <div className="page-container">
                 <div className="contact-grid-wrapper">
                     <div className="company-metadata-sidebar-wrapper">
-                        <div className="logo">
-                            <img src="" alt="logo" />
-                        </div>
+                            <img className="contactImage"src="/assets/images/Logo.png" alt="logo" />
                         <div className="company-details-wrapper">
                             <i className="fas fa-location-arrow"></i>
 
