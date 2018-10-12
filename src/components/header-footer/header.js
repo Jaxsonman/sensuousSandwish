@@ -11,13 +11,13 @@ class Header extends Component {
 
                 
                 <div className="header__rightColumn">
-                        <div className="nav-link">
+                        <div className="header__nav-link">
                             <Link className='link__header' to="/">Home</Link>
                         </div>
-                        <div className="nav-link">
+                        <div className="header__nav-link">
                             <Link className='link__header' to="/menu">Menu</Link>
                         </div>
-                        <div className="nav-link">
+                        <div className="header__nav-link">
                             <Link className='link__header' to="/contact">Contact</Link>
                         </div>
                 </div>
