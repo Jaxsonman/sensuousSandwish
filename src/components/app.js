@@ -9,6 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
+
         <Header/>
         <img src="C:\Users\jaxbl\OneDrive\Desktop\Bottega\PersonalProjects\sensuousSandwich2\sensuousSandwish\static\assets\images\paralax.jpg"/>
         {/* <Parallax/> */}
