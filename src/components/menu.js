@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Header from './header-footer/header';
 import Footer from './header-footer/footer';
-import Parallax from './parallax';
+import MenuItems from './menuItems';
 
 class Menu extends Component {
     render() {
         return(
-            <div>
+            <div className="app__parallax">
                 <Header />
-                <Parallax />
+                <h2 className="parallaxHeader">-Best Sandwiches In Utah Valley</h2>
                 <MenuItems />
                 <Footer />
             </div>
