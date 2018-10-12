@@ -32,6 +32,9 @@
     font-weight: 500;
 
     &:hover {
+        transition: .2s all ease;
+        letter-spacing: .4px;
+        font-size: 1.1em;
         text-decoration: none;
         color: $color-gold;
         border-bottom: 1px solid $color-gold;

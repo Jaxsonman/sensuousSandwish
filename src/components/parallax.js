@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ParallaxProvider } from 'react-scroll-parallax';
+// import { ParallaxProvider } from 'react-scroll-parallax';
 
 
 class Parallax extends Component {

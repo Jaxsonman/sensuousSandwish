@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="footer__logo">
-                        <img src="../" alt="Logo" />
+                        <img src="/assets/images/Logo.png" alt="Logo" />
                 </div>
 
 

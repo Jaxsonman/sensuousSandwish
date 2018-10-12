@@ -9,12 +9,12 @@ class App extends Component {
   render() {
     return (
       <div className='app'>
+      <div className="app__parallax">
 
         <Header/>
-        <img src="C:\Users\jaxbl\OneDrive\Desktop\Bottega\PersonalProjects\sensuousSandwich2\sensuousSandwish\static\assets\images\paralax.jpg"/>
-        {/* <Parallax/> */}
-        {/* <Description/>
-        <Footer/> */}
+        <Description/>
+        <Footer/>
+      </div>
       </div>
     );
   }
