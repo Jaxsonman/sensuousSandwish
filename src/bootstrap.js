@@ -4,8 +4,9 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './components/app';
-// import Menu from './components/menu';
-// import Contact from './components/contact';
+
+import Menu from './components/menu';
+import Contact from './components/contact'
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
