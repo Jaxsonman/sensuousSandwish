@@ -12,7 +12,7 @@ class App extends Component {
         <Header/>
         <Parallax/>
         <Description/>
-        {/* <Footer/> */}
+        <Footer/>
       </div>
     );
   }
