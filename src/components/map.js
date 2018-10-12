@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import Iframe from "react-iframe"
+import Iframe from "react-iframe";
 
 class Map extends Component {
 	render() {
