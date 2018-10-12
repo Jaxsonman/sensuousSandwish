@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 
 class Parallax extends Component {
     render() {
+
         return (
             <div className="parallax">
                 <div className="parallax__image">
