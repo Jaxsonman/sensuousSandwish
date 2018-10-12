@@ -7,9 +7,9 @@ import MenuItems from './menuItems';
 class Menu extends Component {
     render() {
         return(
-            <div>
+            <div className="app__parallax">
                 <Header />
-                <Parallax />
+                <h2 className="parallaxHeader">-Best Sandwiches In Utah Valley</h2>
                 <MenuItems />
                 <Footer />
             </div>
