@@ -20,8 +20,8 @@ function main() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/menu" component={Menu} />
-          <Route path="/contact" component={Contact} />
+          {/* <Route path="/menu" component={Menu} />
+          <Route path="/contact" component={Contact} /> */}
         </Switch>
       </BrowserRouter>
     </Provider>
