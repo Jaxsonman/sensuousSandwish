@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import App from './components/app';
+// import Menu from './components/menu';
+// import Contact from './components/contact';
 import reducers from './reducers';
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
@@ -16,7 +18,11 @@ function main() {
   ReactDOM.render(
     <Provider store={createStoreWithMiddleware(reducers)}>
       <BrowserRouter>
-        <App />
+        <Switch>
+          <Route exact path="/" component={App} />
+          {/* <Route path="/menu" component={Menu} />
+          <Route path="/contact" component={Contact} /> */}
+        </Switch>
       </BrowserRouter>
     </Provider>
     , document.querySelector('.app-wrapper'));
